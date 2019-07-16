@@ -1,0 +1,14 @@
+p {
+  font-size: 16px;
+  line-height: 32px;
+  &.capital-letter {
+    &:first-letter {
+      float: left;
+      font-size: 96px;
+      font-weight: 700;
+      line-height: 100px;
+      padding: 2px;
+      margin-right: 48px;
+    }
+  }
+}

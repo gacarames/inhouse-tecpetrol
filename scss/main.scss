@@ -1,0 +1,142 @@
+@import "./brand-scheme";
+
+/*  system of fonts  */
+$main-font-family: "Open Sans", sans-serif;
+$heading-font-family: "Open Sans", sans-serif;
+$primary-font-color: #000;
+$secondary-font-color: #000;
+
+/*  system of colors  */
+$primary-color: #a80d3e;
+$secondary-color: #ff7200;
+$tertiary-color: #fae2e2;
+$primary-gradient: linear-gradient(to right, $secondary-color, $primary-color);
+
+/*  system of shadows  */
+$static-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+$hover-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+/*  system of widths  */
+$max-width-small-section: 600px;
+$max-width-media-section: 768px;
+$max-width-wide-section: 1024px;
+$max-width-large-section: 1200px;
+$max-width-full-section: 100%;
+$max-width-large-header: 1620px;
+
+/*  system of breakpoints  */
+$breakpoint-tablet: 768px;
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: $primary-font-color !important;
+  font-family: $main-font-family;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: normal;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+
+  section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    @media (min-width: $breakpoint-tablet) {
+      section {
+        margin-top: 0 !important;
+      }
+      .container-small-section {
+        max-width: $max-width-small-section;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+      }
+
+      .container-section {
+        max-width: $max-width-media-section;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+      }
+
+      .container-media-section {
+        max-width: $max-width-media-section;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+      }
+
+      .container-wide-section {
+        max-width: $max-width-wide-section;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+      }
+
+      .container-large-section {
+        width: $max-width-large-section;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+      }
+
+      .container-full-section {
+        width: $max-width-full-section;
+        padding: 0;
+      }
+    }
+  }
+
+  header {
+    @media (min-width: $breakpoint-tablet) {
+      .header-container-wide {
+        width: 100%;
+        max-width: $max-width-large-section;
+        margin: auto;
+      }
+
+      .header-container-large {
+        width: calc(100% - 120px);
+        width: 100%;
+        max-width: $max-width-large-header;
+        margin: auto;
+      }
+
+      .header-container-full {
+        width: $max-width-full-section;
+      }
+    }
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+}
+
+@import "./nav-bar";
+@import "./share-bar";
+@import "./header-hero";
+@import "./branding";
+@import "./author";
+@import "./introduction";
+@import "./text-block";
+@import "./cards-row";
+@import "./image-single";
+@import "./video-embed";
+@import "./footer-mega";
+@import "./footer-small";
+@import "./copyright";
+@import "./helpers";
+
+/* brand */
+/* @import "./brand-scheme"; */

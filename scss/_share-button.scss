@@ -1,0 +1,53 @@
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 22px;
+  margin: 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+
+  @media (min-width: $breakpoint-tablet) {
+    margin: 16px 8px;
+  }
+
+  &:hover {
+    box-shadow: $hover-shadow;
+  }
+
+  &.facebook {
+    background: #3b5998;
+    color: white;
+  }
+
+  &.twitter {
+    background: #55acee;
+    color: white;
+  }
+
+  .uxp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &.uxp-twitter::after {
+      background-image: url(../assets/icons/twitter.svg);
+    }
+
+    &.uxp-facebook::after {
+      background-image: url(../assets/icons/facebook.svg);
+    }
+  }
+}

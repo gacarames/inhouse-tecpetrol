@@ -1,0 +1,83 @@
+/*  alinear texto  */
+.left {
+  text-align: left !important;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.right {
+  text-align: right !important;
+}
+
+/*  fin --  alinear texto  */
+
+/*  posiciones absolutas  */
+.center-left {
+  top: 50%;
+  left: -100px;
+  transform: translate(-0%, -50%) !important;
+}
+
+.center-right {
+  top: 50%;
+  right: -100px;
+  transform: translate(-0%, -50%) !important;
+}
+
+.top-left {
+  top: 0;
+  left: -100px;
+}
+
+.top-right {
+  bottom: inherit;
+  top: 0;
+  right: -100px;
+}
+
+.bottom-left {
+  bottom: 4px;
+  left: -100px;
+}
+
+.bottom-right {
+  bottom: 4px;
+  right: -100px;
+}
+/* fin -- posiciones absolutas  */
+
+/*  material styles  */
+
+.material-skin {
+  border-radius: 6px;
+  box-shadow: $static-shadow;
+}
+
+/* fin -- material styles  */
+
+/*  iconos de imagenes  */
+.media.sup-icon::after {
+  content: "";
+  display: block;
+  /* background-image: url("../img/snowflake.svg"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-0%, -50%);
+  z-index: 99;
+}
+
+.media.sup-icon.rigth::after {
+  left: -25px;
+}
+
+.media.sup-icon.left::after {
+  right: -25px;
+}
+
+/* fin -- iconos de imagenes  */

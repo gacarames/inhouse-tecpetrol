@@ -1,0 +1,12 @@
+.footer-mega .footer-mega-caption {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  padding: 24px;
+  background-color: $secondary-color;
+  @media (min-width: $breakpoint-tablet) {
+    position: absolute;
+    max-width: 280px;
+    z-index: 9;
+  }
+}

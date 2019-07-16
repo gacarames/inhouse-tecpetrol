@@ -1,0 +1,11 @@
+/*  system of fonts  */
+$main-font-family: Arial, sans-serif;
+$heading-font-family: Arial, sans-serif;
+$primary-font-color: #000;
+$secondary-font-color: fuchsia;
+
+/*  system of colors  */
+$primary-color: fuchsia;
+$secondary-color: cyan;
+$tertiary-color: lime;
+$primary-gradient: linear-gradient(to right, $secondary-color, $primary-color);

@@ -1,0 +1,87 @@
+.header-aside-section {
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-position: bottom center;
+  @media only screen and (min-width: $breakpoint-tablet) {
+    margin-top: 64px;
+  }
+
+  .wrapper-header-aside {
+    @media only screen and (min-width: $breakpoint-tablet) {
+      padding-top: 24px;
+    }
+    .header-aside {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      @media only screen and (min-width: $breakpoint-tablet) {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+      }
+
+      .header-aside-item {
+        flex-basis: 0;
+        flex-grow: 1;
+
+        &.media {
+          flex-basis: 0;
+          flex-grow: 1;
+
+          .header-aside-img {
+            width: 100%;
+            max-width: 620px;
+            margin-left: auto;
+            margin-right: 0;
+            box-shadow: $static-shadow;
+          }
+        }
+
+        &.text {
+          flex-basis: 0;
+          flex-grow: 1;
+          padding: 32px;
+          background-image: $primary-gradient;
+          @media only screen and (min-width: $breakpoint-tablet) {
+            position: relative;
+            padding: 96px 32px;
+          }
+
+          .header-aside-label {
+            color: #fff;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 700;
+          }
+
+          .header-aside-main-title {
+            color: #fff;
+            font-size: 32px;
+            line-height: 36px;
+            font-weight: 700;
+            margin: 24px 0;
+            @media only screen and (min-width: $breakpoint-tablet) {
+              color: #fff;
+              font-size: 56px;
+              line-height: 66px;
+              font-weight: 700;
+              /* max-width: 80%; */
+              margin: 24px 0;
+            }
+          }
+
+          .extra-background-color {
+            @media only screen and (min-width: $breakpoint-tablet) {
+              position: absolute;
+              top: 0px;
+              left: 99%;
+              width: 50vw;
+              height: 100%;
+              background-color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

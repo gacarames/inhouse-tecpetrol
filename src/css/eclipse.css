@@ -1,0 +1,151 @@
+.eclipse-container .state-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #000; }
+  .eclipse-container .state-header .state-button {
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-bottom: 5px solid transparent;
+    height: 96px;
+    width: 64px;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%; }
+    .eclipse-container .state-header .state-button:focus {
+      outline: none;
+      border-bottom: 5px solid #ffc200; }
+
+.eclipse-container .slide-wrapper {
+  display: flex;
+  align-items: center;
+  min-height: 320px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center, center 125%, center;
+  background-size: 100%, contain, cover; }
+  @media (min-width: 768px) {
+    .eclipse-container .slide-wrapper {
+      min-height: 620px;
+      background-position: center, center 125%, center;
+      background-size: 75%, contain, cover; } }
+  .eclipse-container .slide-wrapper.stage-0 {
+    background-image: url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sol.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sierras-1.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/cielo-1.png);
+    transition: all 0.5s; }
+  .eclipse-container .slide-wrapper.stage-25 {
+    background-image: url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sol.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sierras-2.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/cielo-2.png);
+    transition: all 0.5s; }
+    .eclipse-container .slide-wrapper.stage-25 .ant-slider-handle::before {
+      background-image: url("https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/luna-2-v2.png"); }
+  .eclipse-container .slide-wrapper.stage-40 {
+    background-image: url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sol.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sierras-3.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/cielo-noche.png);
+    transition: all 0.5s; }
+    .eclipse-container .slide-wrapper.stage-40 .ant-slider-handle::before {
+      background-image: url("https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/luna-3-v2.png"); }
+  .eclipse-container .slide-wrapper.stage-50 {
+    background-image: url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sol-noche.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sierras-4.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/cielo-noche.png);
+    transition: all 0.5s; }
+    .eclipse-container .slide-wrapper.stage-50 .ant-slider-handle::before {
+      background-image: url("https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/luna-4.png"); }
+  .eclipse-container .slide-wrapper.stage-60 {
+    background-image: url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sol.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sierras-3.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/cielo-noche.png);
+    transition: all 0.5s; }
+    .eclipse-container .slide-wrapper.stage-60 .ant-slider-handle::before {
+      background-image: url("https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/luna-5-v2.png"); }
+  .eclipse-container .slide-wrapper.stage-75 {
+    background-image: url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sol.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sierras-2.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/cielo-2.png);
+    transition: all 0.5s; }
+    .eclipse-container .slide-wrapper.stage-75 .ant-slider-handle::before {
+      background-image: url("https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/luna-6-v2.png"); }
+  .eclipse-container .slide-wrapper.stage-100 {
+    background-image: url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sol.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/sierras-1.png), url(https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/cielo-1.png);
+    transition: all 0.5s; }
+    .eclipse-container .slide-wrapper.stage-100 .ant-slider-handle::before {
+      background-image: url("https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/luna-7-v2.png"); }
+  .eclipse-container .slide-wrapper .ant-slider-handle {
+    background-color: transparent;
+    border: none; }
+    .eclipse-container .slide-wrapper .ant-slider-handle::before {
+      display: inline-block;
+      content: " ";
+      background-image: url("https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/luna-1-v2.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 86px;
+      width: 86px;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-51%, -49%); }
+      @media (min-width: 768px) {
+        .eclipse-container .slide-wrapper .ant-slider-handle::before {
+          height: 214px;
+          width: 214px; } }
+  .eclipse-container .slide-wrapper .slider-body {
+    width: 75%;
+    margin: auto; }
+    @media (min-width: 768px) {
+      .eclipse-container .slide-wrapper .slider-body {
+        width: 50%; } }
+  .eclipse-container .slide-wrapper .ant-slider-with-marks {
+    margin: 0; }
+  .eclipse-container .slide-wrapper .ant-slider-dot {
+    background-color: transparent;
+    border: none; }
+  .eclipse-container .slide-wrapper .ant-slider-rail {
+    background-color: transparent; }
+  .eclipse-container .slide-wrapper .ant-slider-track {
+    background-color: transparent; }
+
+.eclipse-container .data-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #000; }
+  .eclipse-container .data-footer .item-data {
+    color: #fff;
+    display: flex;
+    flex-direction: column; }
+    .eclipse-container .data-footer .item-data .full-section {
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
+      line-height: 24px; }
+      .eclipse-container .data-footer .item-data .full-section .caption-data {
+        text-align: center; }
+    .eclipse-container .data-footer .item-data .half-section {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: bold;
+      padding: 16px; }
+      .eclipse-container .data-footer .item-data .half-section .hour-data {
+        padding: 4px 16px;
+        border-right: 1px solid #fff; }
+        .eclipse-container .data-footer .item-data .half-section .hour-data::before {
+          display: inline-block;
+          content: " ";
+          background-image: url("https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/clock-with-white-face.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 20px;
+          width: 20px;
+          margin-right: 8px; }
+      .eclipse-container .data-footer .item-data .half-section .temp-data {
+        padding: 4px 16px; }
+        .eclipse-container .data-footer .item-data .half-section .temp-data::before {
+          display: inline-block;
+          content: " ";
+          background-image: url("https://s3.amazonaws.com/brandedcontent.static.infobae.com/Motorola/assets/img/eclipse/thermometer.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 20px;
+          width: 20px;
+          vertical-align: baseline;
+          margin-right: 8px; }

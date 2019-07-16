@@ -1,0 +1,14 @@
+.block-text-section {
+  .wrapper-block-text {
+    padding: 0 16px;
+    @media (min-width: $breakpoint-tablet) {
+      padding: 0;
+    }
+  }
+}
+
+@import "./paragraph";
+@import "./blockquote";
+@import "./display-heading";
+@import "./list";
+@import "./link";

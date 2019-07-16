@@ -1,0 +1,78 @@
+.horizontal {
+  @media (min-width: $breakpoint-tablet) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    &.reverse {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &:not(:first-of-type) {
+    margin-top: 64px;
+  }
+}
+
+.vertical {
+  margin: 16px;
+  flex-grow: 1;
+  overflow: hidden;
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-basis: 0;
+    margin: 0 16px;
+  }
+
+  &:first-of-type {
+    margin-top: 0;
+    @media (min-width: $breakpoint-tablet) {
+      margin-left: 0;
+    }
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+    @media (min-width: $breakpoint-tablet) {
+      margin-right: 0;
+    }
+  }
+}
+
+.card-item {
+  @media (min-width: $breakpoint-tablet) {
+    flex-basis: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+  position: relative;
+  &.text {
+    padding: 0 16px;
+    h3 {
+      color: #fff;
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: 700;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 32px;
+    }
+    .card-link {
+      display: block;
+      color: $secondary-color;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: right;
+      width: 100%;
+    }
+  }
+}

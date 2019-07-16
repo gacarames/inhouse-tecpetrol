@@ -1,0 +1,43 @@
+{
+  "name": "react-tpls",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://inhouse.infobae.com/tecpetrol/",
+  "dependencies": {
+    "antd": "^3.20.0",
+    "flickity": "^2.2.0",
+    "rc-slider": "^8.6.13",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-draggable": "^3.3.0",
+    "react-ga": "^2.5.7",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "sass": "node-sass -w ./scss -o ./src/css/",
+    "deploy": "aws s3 sync build/ s3://inhouse.infobae.com/tecpetrol"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

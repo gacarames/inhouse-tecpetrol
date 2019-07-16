@@ -1,0 +1,11 @@
+.wrapper-card {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@import "./card";

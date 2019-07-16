@@ -1,0 +1,23 @@
+.single-image {
+  .wrapper-single-image {
+    figure {
+      margin: 0;
+
+      figcaption {
+        padding: 0 16px;
+        @media (min-width: $breakpoint-tablet) {
+          padding: 0;
+        }
+
+        .wide-image-caption {
+          font-size: 12px;
+          line-height: 16px;
+          @media (min-width: $breakpoint-tablet) {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+}

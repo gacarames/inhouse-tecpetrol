@@ -1,0 +1,25 @@
+.footer-mega-button {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px;
+  background-color: $secondary-color;
+  border-radius: 24px;
+  margin-top: 32px;
+  margin-left: auto;
+  width: 100%;
+  max-width: 320px;
+  margin-right: auto;
+  @media (min-width: $breakpoint-tablet) {
+    position: absolute;
+    padding: 12px 32px;
+    border-radius: 24px;
+    max-width: inherit;
+    margin-top: 0px;
+    z-index: 99;
+  }
+}

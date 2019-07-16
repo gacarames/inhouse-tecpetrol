@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="Smartphone" transform="translate(-4 -4)">
+    <path id="Trazado_510" data-name="Trazado 510" d="M29,44h4.071v1.357H29Z" transform="translate(-8.036 -12.857)" fill="#ff7200"/>
+    <path id="Trazado_511" data-name="Trazado 511" d="M30,48h2.714v8.143H30Z" transform="translate(-8.357 -14.143)" fill="#ff7200"/>
+    <path id="Trazado_512" data-name="Trazado 512" d="M27,40h6.786v1.357H27Z" transform="translate(-7.393 -11.571)" fill="#ff7200"/>
+    <path id="Trazado_513" data-name="Trazado 513" d="M39.143,25.643V8H35.75v.679a.679.679,0,0,1-.679.679h-19a.679.679,0,0,1-.679-.679V8H12V25.643h3.393v-.679a.679.679,0,0,1,.679-.679h19a.679.679,0,0,1,.679.679v.679ZM21.5,21.571H18.786a.679.679,0,0,1-.679-.679V18.179h1.357v2.036H21.5Zm0-8.143H19.464v2.036H18.107V12.75a.679.679,0,0,1,.679-.679H21.5Zm11.536,7.464a.679.679,0,0,1-.679.679H29.643V20.214h2.036V18.179h1.357Zm0-5.429H31.679V13.429H29.643V12.071h2.714a.679.679,0,0,1,.679.679Z" transform="translate(-2.571 -1.286)" fill="#ff7200"/>
+    <path id="Trazado_514" data-name="Trazado 514" d="M58.071,10.036A2.036,2.036,0,0,0,56.036,8H54V25.643h2.036a2.036,2.036,0,0,0,2.036-2.036Z" transform="translate(-16.071 -1.286)" fill="#ff7200"/>
+    <path id="Trazado_515" data-name="Trazado 515" d="M19,6.714H36.643V4.679A.679.679,0,0,0,35.964,4H19.679A.679.679,0,0,0,19,4.679Z" transform="translate(-4.821)" fill="#ff7200"/>
+    <path id="Trazado_516" data-name="Trazado 516" d="M36.643,36.036V34H19v2.036a.679.679,0,0,0,.679.679H35.964A.679.679,0,0,0,36.643,36.036Z" transform="translate(-4.821 -9.643)" fill="#ff7200"/>
+    <path id="Trazado_517" data-name="Trazado 517" d="M4,23.607a2.036,2.036,0,0,0,2.036,2.036H8.071V8H6.036A2.036,2.036,0,0,0,4,10.036Zm1.357-4.75H6.714v2.714H5.357Zm0,4.071H6.714v1.357H5.357Z" transform="translate(0 -1.286)" fill="#ff7200"/>
+  </g>
+</svg>

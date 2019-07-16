@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.167" height="35.971" viewBox="0 0 37.167 35.971">
+  <g id="telescope" transform="translate(0 -10.367)">
+    <g id="Grupo_77" data-name="Grupo 77" transform="translate(29.901 33.194)">
+      <g id="Grupo_76" data-name="Grupo 76">
+        <path id="Trazado_518" data-name="Trazado 518" d="M0,324.214l2.584.281,1.049-2.378L4.681,324.5l2.584-.281-1.535,2.1,1.535,2.1-2.584-.281-1.049,2.378-1.049-2.378L0,328.408l1.535-2.1Z" transform="translate(0 -322.117)" fill="#ff7200"/>
+      </g>
+    </g>
+    <g id="Grupo_79" data-name="Grupo 79" transform="translate(2.737 10.367)">
+      <g id="Grupo_78" data-name="Grupo 78">
+        <path id="Trazado_519" data-name="Trazado 519" d="M375.407,12.464l2.584.281,1.049-2.378,1.049,2.378,2.584-.281-1.535,2.1,1.535,2.1-2.584-.281-1.049,2.378-1.049-2.378-2.584.281,1.535-2.1Z" transform="translate(-375.407 -10.367)" fill="#ff7200"/>
+      </g>
+    </g>
+    <g id="Grupo_81" data-name="Grupo 81" transform="translate(0 13.717)">
+      <g id="Grupo_80" data-name="Grupo 80">
+        <path id="Trazado_520" data-name="Trazado 520" d="M22.342,67.288l.629,2.107,2.784-.847-.619-2.072L45.46,59.529l-.325-1.089,7.656-2.328,3.147,10.535-7.656,2.329-.325-1.089-10.487,2.8,8.066,18.045H43.143L37.034,75.069V88.734H34.853V75.069L28.745,88.734H26.352L34,71.615l-6.791,1.815-.619-2.072-4.872,1.482-.356-1.193-.483-1.616-.629-2.107Z" transform="translate(-20.254 -56.112)" fill="#ff7200"/>
+      </g>
+    </g>
+  </g>
+</svg>

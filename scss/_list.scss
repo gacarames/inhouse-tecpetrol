@@ -1,0 +1,76 @@
+.wrapper-block-text {
+  .wrapper-table {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 16px;
+    @media (min-width: $breakpoint-tablet) {
+      padding: 0;
+      flex-direction: row;
+      justify-content: center;
+      margin: auto;
+      width: 100%;
+    }
+    .wrapper-image {
+      display: none;
+
+      @media (min-width: $breakpoint-tablet) {
+        display: block;
+        width: 50%;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .list {
+    padding-left: 0;
+    margin: 16px;
+    list-style-type: none;
+
+    .item-list {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 16px 0;
+      border-bottom: 1px solid #eee;
+
+      background: url("https://s3.amazonaws.com/inhouse.infobae.com/toyota-rav4/img/checked.svg") no-repeat transparent;
+      background-position: center left;
+      list-style-type: none;
+      margin: 0;
+      padding: 16px 0px 16px 48px;
+      vertical-align: middle;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    &.icons {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      .item-list {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 16px 0;
+        border-bottom: 1px solid #eee;
+
+        .icon {
+          display: inline-block;
+          height: 24px;
+          width: 24px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: 0 16px;
+          vertical-align: middle;
+          background-image: url("https://s3.amazonaws.com/inhouse.infobae.com/toyota-rav4/img/checked.svg");
+        }
+      }
+    }
+  }
+}

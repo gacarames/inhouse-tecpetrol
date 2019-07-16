@@ -1,0 +1,37 @@
+.footer-mega-section {
+  position: relative;
+
+  .parallax-footer {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: calc(100% - 80px);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wrapper-footer-mega {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 32px;
+    @media (min-width: $breakpoint-tablet) {
+      padding-bottom: 0px;
+    }
+
+    .footer-mega {
+      padding: 0 16px;
+      position: relative;
+      @media (min-width: $breakpoint-tablet) {
+        position: relative;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@import "./caption";
+@import "./redirect-link.scss";
