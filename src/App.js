@@ -104,7 +104,7 @@ licuado, y contribuye a una mejora de la balanza comercial de energía del país
       />    
 
       <TextBlock
-        container="media"
+        container="small"
       >
         <DisplayHeading
           sizeText="32px"
@@ -126,7 +126,7 @@ licuado, y contribuye a una mejora de la balanza comercial de energía del país
       />
 
       <TextBlock
-        container="media"
+        container="small"
       >
         <DisplayHeading
           sizeText="32px"
@@ -145,7 +145,7 @@ licuado, y contribuye a una mejora de la balanza comercial de energía del país
       />    
 
       <TextBlock
-        container="media"
+        container="small"
       >
 
         <Paragraph
